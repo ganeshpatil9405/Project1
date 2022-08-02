@@ -2,7 +2,7 @@ package oracle_may11;
 
 import java.util.Scanner;
 
-public class studentData {
+public class StudentData {
 	int id,marks;
 	String name,dept;
 	
@@ -26,7 +26,7 @@ public class studentData {
 		
 		Scanner sc=new Scanner(System.in);
 		
-		studentData s1=new studentData();
+		StudentData s1=new StudentData();
 		
 		System.out.println("Enter student id, name, dept, marks");
 		int id=sc.nextInt();

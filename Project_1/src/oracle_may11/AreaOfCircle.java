@@ -2,7 +2,7 @@ package oracle_may11;
 
 import java.util.Scanner;
 
-public class areaOfCircle {
+public class AreaOfCircle {
 		
 		
 		int rsquare(int r)
@@ -23,15 +23,15 @@ public class areaOfCircle {
 			System.out.println("Enter the Radius ");
 			int r=sc.nextInt();
 			
-			areaOfCircle a1=new areaOfCircle();
+			AreaOfCircle a1=new AreaOfCircle();
 			a1.area(r);
 			
-			areaOfCircle a2=new areaOfCircle();
+			AreaOfCircle a2=new AreaOfCircle();
 			System.out.println("Enter the radius ");
 			r=sc.nextInt();
 			a2.area(r);
 			
-			areaOfCircle a3=new areaOfCircle();
+			AreaOfCircle a3=new AreaOfCircle();
 			System.out.println("Enter the radius ");
 			r=sc.nextInt();
 			a3.area(r);

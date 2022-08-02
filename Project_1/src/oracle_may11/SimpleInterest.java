@@ -2,7 +2,7 @@ package oracle_may11;
 
 import java.util.Scanner;
 
-public class simpleInterest {
+public class SimpleInterest {
 	
 	int si(int p,int r,int t)
 	{
@@ -25,7 +25,7 @@ public class simpleInterest {
 		int r=sc.nextInt();
 		int t=sc.nextInt();
 		
-		simpleInterest s1=new simpleInterest();
+		SimpleInterest s1=new SimpleInterest();
 		s1.cal(p,r,t);
 	
 		
@@ -34,7 +34,7 @@ public class simpleInterest {
 		 r=sc.nextInt();
 		 t=sc.nextInt();
 		
-		simpleInterest s2=new simpleInterest();
+		SimpleInterest s2=new SimpleInterest();
 		s2.cal(p,r,t);
 		sc.close();
 		

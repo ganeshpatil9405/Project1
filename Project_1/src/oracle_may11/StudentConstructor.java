@@ -2,12 +2,12 @@ package oracle_may11;
 
 import java.util.Scanner;
 
-public class studentConstr {
+public class StudentConstructor {
 	
 	int id, marks;
 	String name;
 	
-	studentConstr() {}
+	StudentConstructor() {}
 	
 	void setId(int id)
 	{
@@ -36,7 +36,7 @@ public class studentConstr {
 	public static void main(String[] args) {
 		
 		Scanner sc=new Scanner(System.in);
-		studentConstr s1=new studentConstr();
+		StudentConstructor s1=new StudentConstructor();
 		
 		System.out.println("Enter student id , marks & Name");
 		

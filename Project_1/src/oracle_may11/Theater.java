@@ -2,7 +2,7 @@ package oracle_may11;
 
 import java.util.Scanner;
 
-public class theater {
+public class Theater {
 	String name,movie1,movie2,movie3,movie4;
 	String contact,movie;
 	
@@ -97,7 +97,7 @@ public class theater {
 		 
 		 String name,movie1,movie2,movie3,movie4;
 			String contact,movie;
-		theater t1=new theater();
+		Theater t1=new Theater();
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter Name, Contact No");

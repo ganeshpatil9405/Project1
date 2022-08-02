@@ -1,6 +1,6 @@
 package oracle_may11;
 
-public class classobject {
+public class ClassObject {
 	
 	void pythonCourse()
 	{
@@ -24,9 +24,9 @@ public class classobject {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		classobject s1=new classobject();
-		classobject s2=new classobject();
-		classobject s3=new classobject();
+		ClassObject s1=new ClassObject();
+		ClassObject s2=new ClassObject();
+		ClassObject s3=new ClassObject();
 		
 		s1.javaCourse();
 		s2.pythonCourse();

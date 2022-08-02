@@ -16,10 +16,7 @@ public class reversenum {
 		{
 			int c=num%10;
 			rev=rev*10+c;
-			num=num/10;
-			
-			
-			
+			num=num/10;	
 		}
 		System.out.println("Reverse Number is "+rev);
 

@@ -10,7 +10,7 @@ public class Demo1 {
 		
 		for(int i=0;i<arr.length-2;i++)
 		{
-			System.out.print(arr[i]+arr[i+2]);
+			System.out.print(arr[i]+arr[i+2]+"\t");
 				
 			
 		}
